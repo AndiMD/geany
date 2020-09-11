@@ -129,7 +129,7 @@ comment_line_doc=comment_doc
 comment_doc_keyword=comment_doc,bold
 comment_doc_keyword_error=comment_doc,italic
 
-number=0x007f00
+number=0x808000
 number_1=number
 number_2=number_1
 
@@ -137,6 +137,7 @@ type=0x0000d0;;true;false
 class=type
 function=0x000080
 parameter=function
+annotation=0x8080ff;;true;false
 
 keyword=0x00007f;;true;false
 keyword_1=keyword
@@ -153,6 +154,7 @@ identifier_4=identifier_1
 string=0xff8000
 string_1=string
 string_2=0x008000
+string_3=0x008000
 string_eol=0x000000;0xe0c0e0;false;false
 character=string_1
 backticks=string_2
@@ -163,6 +165,7 @@ preprocessor=0x007f7f
 regex=number_1
 operator=0x301010
 decorator=string_1,bold
+macro=preprocessor,bold
 other=0x404080
 
 tag=type
