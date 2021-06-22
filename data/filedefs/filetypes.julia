@@ -9,10 +9,10 @@
 [styling]
 default=default
 comment=comment
-number=number_1
+number=number_3
 keyword1=keyword_1
 keyword2=keyword_2
-keyword3=number
+keyword3=number_3
 char=string_1
 operator=operator
 bracket=operator
@@ -74,7 +74,7 @@ width=4
 type=0
 
 
-[build_settings]
+[build_menu]
 # %f will be replaced by the complete filename
 # %e will be replaced by the filename without extension
 # (use only one of it at one time)
