@@ -125,7 +125,7 @@ LexicalClass juliaLexicalClasses[] = {
 	20, "SCE_JULIA_KEYWORD4", "keyword4", "Keyword4",
 };
 
-const int sizeJuliaLexicalClasses = static_cast<int>(std::size(juliaLexicalClasses));
+const int sizeJuliaLexicalClasses = static_cast<int>(Sci::size(juliaLexicalClasses));
 
 
 class LexerJulia : public DefaultLexer {
