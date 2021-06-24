@@ -907,13 +907,15 @@ static const HLStyle highlighting_styles_JULIA[] =
 	{ SCE_JULIA_COMMANDLITERAL,		"commandliteral",		FALSE },
 	{ SCE_JULIA_TYPEANNOT,			"typeannot",			FALSE },
 	{ SCE_JULIA_LEXERROR,			"lexerror",				FALSE },
+	{ SCE_JULIA_KEYWORD4,			"keyword4",				FALSE },
 };
 static const HLKeyword highlighting_keywords_JULIA[] =
 {
 	{ 0, "primary",		FALSE },
 	{ 1, "secondary",	FALSE },
 	{ 2, "tertiary",	FALSE },
-	{ 3, "rawliterals",	FALSE }
+	{ 3, "functions",	FALSE },
+	{ 4, "rawprefixes",	FALSE }
 };
 #define highlighting_properties_JULIA	EMPTY_PROPERTIES
 
