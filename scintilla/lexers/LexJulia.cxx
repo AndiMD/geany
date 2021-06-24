@@ -37,7 +37,7 @@
 #include "DefaultLexer.h"
 
 using namespace Scintilla;
-// Geany still uses Lexilla v4
+// Geany still uses Scintilla v3.5
 //using namespace Lexilla;
 
 static const int MAX_JULIA_IDENT_CHARS = 1023;
@@ -146,7 +146,7 @@ public:
 		delete this;
 	}
 	int SCI_METHOD Version() const override {
-		// Geany still uses Lexilla v4
+		// Geany still uses Scintilla v3.5
 		//return lvRelease5;
 		return lvIdentity;
 	}
@@ -173,7 +173,7 @@ public:
 		return 0;
 	}
 
-	// Geany still uses Lexilla v4
+	// Geany still uses Scintilla v3.5
 	//static ILexer5 *LexerFactoryJulia() {
 	static ILexer *LexerFactoryJulia() {
 		return new LexerJulia();
